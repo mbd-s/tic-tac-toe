@@ -1,5 +1,5 @@
 body {
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -7,20 +7,31 @@ body {
   margin-top: 10px;
 }
 
+#message-box {
+  font-size: 22px;
+}
+
+h1 {
+  font-weight: bold;;
+}
+
+.border-bottom {
+  border-bottom: 5px solid black;
+}
+
+.border-left {
+  border-left: 5px solid black;
+}
+
 .box {
-  border: 1px solid black;
+  border-collapse: collapse;
   height: 150px;
   font-size: 30px;
-  padding-right: 55px;
-  padding-left: 85px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 55px;
 }
 
 .btn {
-margin-top: 10px;
-}
-/* tested CSS link
-body {
-  background-color: blue; */
+  margin-top: 10px;
+  font-size: 20px;
 }

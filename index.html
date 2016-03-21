@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1>tic tac toe</h1>
+          <h1>Tic-tac-toe</h1>
           <hr>
         </div>
       </div>
@@ -33,29 +33,29 @@
         <!-- a column represents our game board -->
         <!-- the `offset` class helps us center the board -->
         <div class="col-md-6 col-md-offset-3" id="board">
+        <div class="alert alert-info" id="message-box"></div>
 
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row">
-            <div class="col-md-4 box" id="box0"></div>
-            <div class="col-md-4 box" id="box1"></div>
-            <div class="col-md-4 box" id="box2"></div>
+            <div class="col-md-4 box border-bottom" id="box0"></div>
+            <div class="col-md-4 box border-bottom border-left" id="box1"></div>
+            <div class="col-md-4 box border-bottom border-left" id="box2"></div>
           </div>
 
           <div class="row">
-            <div class="col-md-4 box" id="box3"></div>
-            <div class="col-md-4 box" id="box4"></div>
-            <div class="col-md-4 box" id="box5"></div>
+            <div class="col-md-4 box border-bottom" id="box3"></div>
+            <div class="col-md-4 box border-bottom border-left" id="box4"></div>
+            <div class="col-md-4 box border-bottom border-left" id="box5"></div>
           </div>
 
           <div class="row">
             <div class="col-md-4 box" id="box6"></div>
-            <div class="col-md-4 box" id="box7"></div>
-            <div class="col-md-4 box" id="box8"></div>
+            <div class="col-md-4 box border-left" id="box7"></div>
+            <div class="col-md-4 box border-left" id="box8"></div>
           </div>
 
           <button type="button" class="btn btn-primary">RESET</button>
-          <span id="message-box"></span>
         </div>
 
 
