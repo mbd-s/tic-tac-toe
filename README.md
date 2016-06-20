@@ -1,2 +1,1 @@
-## Tic-Tac-Toe
-**in HTML, CSS, and JavaScript**
+## Browser Tic-tac-toe in HTML, CSS, and JavaScript
